@@ -8,7 +8,7 @@
 if(typeof process === 'object'){
     var THREE;
     try {
-        THREE = require("three.js");
+        THREE = require("three");
     } catch(e){
         THREE = require("three.js-amd");
     }

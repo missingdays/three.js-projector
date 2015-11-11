@@ -1,6 +1,6 @@
 {
   "name": "three.js-projector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Three.js projector taken from example",
   "main": "index.js",
   "scripts": {
