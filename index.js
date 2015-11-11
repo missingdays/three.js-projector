@@ -919,13 +919,7 @@ define(function(require, exports, module){
 
     };
 
-    if ( typeof define === 'function' && define.amd ) {
 
-            define( 'three.js-projector', Projector );
+    module.exports = Projector;
 
-    } else if ( 'undefined' !== typeof exports && 'undefined' !== typeof module ) {
-
-            module.exports = Projector;
-
-    }
 });
